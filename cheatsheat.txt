@@ -1,0 +1,11 @@
+if you changes in file or add some file then use ::
+
+ 1) git status
+ 2) git add .
+ 3)git commit -m "msg"
+ 4) git push origin master
+
+
+  if you add folder in git 
+
+  1)git add .
