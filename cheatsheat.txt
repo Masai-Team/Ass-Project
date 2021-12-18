@@ -1,11 +1,20 @@
-if you changes in file or add some file then use ::
+:> if you changes in file or add some           file then use ::
 
- 1) git status
+ 1) git status (shows what you changes in file in red color)
+
  2) git add .
  3)git commit -m "msg"
  4) git push origin master
+-------------------------------------
 
-
-  if you add folder in git 
+ :> if you add folder in git 
 
   1)git add .
+  2) see your folder all files are there
+_____________________________________
+
+ if you going to your branch then use:
+
+ 1)git branch (check our name in branch)
+ 2)git checkout yourname (put your name)
+ 3)then doing what you do
