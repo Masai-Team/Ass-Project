@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+       @media only screen and (min-width:769px) {
+           #subHead{
+               display: flex;
+           }
+           .subHead{
+               display: flex;
+           }
+           #content{
+               display: flex;  
+           }
+       }
+      
+        #container{
+            font-family: system-ui;
+        }
+        #heading{
+            font-size: 20px;
+            color: rgb(218,6,0);
+            text-align: center;
+        }
+        #subHead{
+             height:80px;
+             padding:0 30px;
+        }
+        .subHead{
+            width:15%;
+            height:100%;
+            padding-right:30px;
+            font-weight: bold; 
+        }
+        .subHead:hover{
+            cursor: pointer;
+        }
+        #content{
+            padding: 20px  10% 20px 50px; 
+            background-color: #f3f3f3;
+            margin-top: 30px;
+            font-size: 15px;
+        }
+
+        .pTag{
+            margin-right:50px; 
+        }
+
+        @media only screen and (min-width:10px) and (max-width:768px){
+            img{
+                display: none;
+            }
+            #subHead{
+                height:auto;
+                padding:0;
+            }
+            .subHead{
+                width:95%;
+                background-color: rgb(234,247,254);
+                padding:0 0 0 20px;
+                font-weight: normal;
+                height: auto;
+                line-height: 10%;
+                border:1px solid rgb(173, 173, 173)
+            }
+            #content{
+                margin-top: 0;
+                padding:30px 5% 30px 20px;
+                font-size: 13px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div id="container">
+
+        <div  id="heading"> <h2>OUR VALUES</h2></div>
+        <div id="subHead">
+
+           <div  class="subHead" id="customValue"><p>CUSTOMER VALUE</p>
+            <img alt="our values" width=90
+             src="https://rcareers.ril.com/sap/bc/bsp/sap/ZEREC_MIME/RR_HomePage_V1/img/ourvaluetab01.png" /></div>
+           <div  class="subHead"  id="ownership"><p>OWNERSHIP MINDSET</p>
+            <img alt="our values" width=90
+             src="https://rcareers.ril.com/sap/bc/bsp/sap/ZEREC_MIME/RR_HomePage_V1/img/ourvaluetab02.png" /></div>
+           <div  class="subHead"  id="respect"><p>RESPECT</p>
+            <img alt="our values" width="90"
+             src="https://rcareers.ril.com/sap/bc/bsp/sap/ZEREC_MIME/RR_HomePage_V1/img/ourvaluetab03.png" /></div>
+           <div  class="subHead"  id="integrity"><p>INTEGRITY</p>
+            <img alt="our values" width="90"
+             src="https://rcareers.ril.com/sap/bc/bsp/sap/ZEREC_MIME/RR_HomePage_V1/img/ourvaluetab04.png" /></div>
+           <div  class="subHead" id="oneTeam"><p>ONE TEAM</p>
+            <img alt="our values" width="90"
+             src="https://rcareers.ril.com/sap/bc/bsp/sap/ZEREC_MIME/RR_HomePage_V1/img/ourvaluetab05.png" /></div>
+           <div  class="subHead"  id="excellence"><p>EXCELLENCE</p>
+            <img alt="our values" width="90"
+             src="https://rcareers.ril.com/sap/bc/bsp/sap/ZEREC_MIME/RR_HomePage_V1/img/ourvaluetab06.png" /></div>
+        </div>
+
+        <div id="content">
+            <p class="pTag" id="p1">We will demonstrate a proactive Customer First & a Customer Delightmind-set consistently.</p>
+            <p class="pTag" id="p2">We will act at all times to ensure Reliance remains the first choice for our customers.</p>
+            <p class="pTag" id="p3">We will actively listen to customer inputs to continuously improveour products, services and the customer experience.</p>
+            <p class="pTag" id="p4">We will work proactively and go the extra mile to nurture and growall our customer relationships.</p>
+            <p class="pTag" id="p5">To delight our end customers best, we will serve our internal andexternal customers, equally well.</p>
+
+        </div>
+    </div>
+</body>
+</html>
+<script>    
+    document.querySelector("#customValue").addEventListener("click" , function(){ 
+
+   document.querySelector("#p1").textContent="We will demonstrate a proactive Customer First & a Customer Delightmind-set consistently.";
+
+   document.querySelector("#p2").textContent="We will act at all times to ensure Reliance remains the first choice for our customers.";
+
+   document.querySelector("#p3").textContent="We will actively listen to customer inputs to continuously improveour products, services and the customer experience.";
+
+   document.querySelector("#p4").textContent="We will work proactively and go the extra mile to nurture and growall our customer relationships.";
+
+   document.querySelector("#p5").textContent="To delight our end customers best, we will serve our internal andexternal customers, equally well.";
+
+
+    });
+
+
+    document.querySelector("#ownership").addEventListener("click" , function(){ 
+
+     document.querySelector("#p1").textContent="We will prioritise and always align our work keeping the largerpurpose of the corporation in mind.";
+
+     document.querySelector("#p2").textContent="We will operate with a personal stake and an ownership mind-set andplay to win.";
+
+     document.querySelector("#p3").textContent="We will always remain agile and anticipate what will make a difference to our stakeholders tomorrow and make it happen with speed.";
+
+     document.querySelector("#p4").textContent="We will always commit to the highest standards of safety and environment.";
+
+     document.querySelector("#p5").textContent="We will conduct ourselves to ensure highest standards of corporatecitizenship.";
+
+});
+
+
+document.querySelector("#respect").addEventListener("click" , function(){ 
+
+document.querySelector("#p1").textContent="Individually and collectively we will conduct ourselves with respect and humility.";
+
+document.querySelector("#p2").textContent="We will uphold the self-esteem and dignity of each other by creating an open culture conducive for expression of views and ideas, irrespective of hierarchy.";
+
+document.querySelector("#p3").textContent="We will express ourselves honestly but without disrespecting thesentiments of others.";
+
+document.querySelector("#p4").textContent="We believe in being inclusive in our thinking and doing, we recognize that differences of perspectives are natural and must be acknowledged.";
+
+document.querySelector("#p5").textContent="We will foster an inclusive and diverse workplace where everyone istreated with respect and dignity.";
+
+});
+
+document.querySelector("#integrity").addEventListener("click" , function(){ 
+
+document.querySelector("#p1").textContent="We will earn confidence and trust through principled leadership,fairness and humility at all times.";
+
+document.querySelector("#p2").textContent="We believe in integrity of thought and action and adhere to theReliance Code of Conduct and all relevant laws of the land.";
+
+document.querySelector("#p3").textContent="We believe in building a spirit of trust with all our stakeholders";
+
+document.querySelector("#p4").textContent="We will speak up if we see something conflicts with the Values ofthe company.";
+
+document.querySelector("#p5").textContent="We will have the courage to stand up for what is right and surfaceissues early.";
+
+});
+
+document.querySelector("#oneTeam").addEventListener("click" , function(){ 
+
+document.querySelector("#p1").textContent="Team Reliance comes before me, always and every time.";
+
+document.querySelector("#p2").textContent="We collaborate seamlessly, seeking and offering help as One Team,One Vision.";
+
+document.querySelector("#p3").textContent="We take accountability for our own actions and also that of ourteam.";
+
+document.querySelector("#p4").textContent="We recognise and acknowledge the contribution of other colleaguesand celebrate wins as a team.";
+
+document.querySelector("#p5").textContent="We look beyond our own immediate roles and take ownership of thelarger outcome.";
+
+});
+
+
+document.querySelector("#excellence").addEventListener("click" , function(){ 
+
+document.querySelector("#p1").textContent="We believe in excellence in everything we think, say and do.";
+
+document.querySelector("#p2").textContent="We will not create, accept or pass on anything that is mediocre.";
+
+document.querySelector("#p3").textContent="We will accept responsibility learn and improve, not rationaliseand explain, using the Plan, Do, Check and Act principle.";
+
+document.querySelector("#p4").textContent="We will hold each other accountable to deliver excellence.";
+
+document.querySelector("#p5").textContent="We will always be outside in and raise the bar for excellence,learning from external benchmarks globally.";
+});
+</script>
