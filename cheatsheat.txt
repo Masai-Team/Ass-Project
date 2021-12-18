@@ -6,6 +6,7 @@ if you changes in file or add some file then use ::
  4) git push origin master
 
 
-  if you add folder in git 
+  if you add all repo in our local folder  
 
-  1)git add .
+  1)git clone http url
+  2)see your folder 
