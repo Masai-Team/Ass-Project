@@ -1,0 +1,278 @@
+* {
+    font-family: system-ui;
+
+  }
+
+  .main {
+    height: auto;
+    width: 100%;
+  }
+
+  .nav {
+    width: 100%;
+    height: 100px;
+    background-color: white;
+    margin: auto;
+    display: flex;
+    top: 0;
+    position: fixed;
+    z-index: 2;
+  }
+
+  .nav-logo {
+    width: 40%;
+    height: 100%;
+    padding: 10px 70px;
+  }
+
+  .nav-btn {
+    height: 160%;
+    width: 60%;
+    display: flex;
+    font-size: 130%;
+    font-weight: 600;
+    padding-left: 150px;
+  }
+
+  .nav-btn>div {
+    margin: 14px;
+  }
+
+  .txtclr-white {
+    color: white;
+  }
+
+  .txtclr-red {
+    color: #e00600;
+  }
+
+  .txtclr-blue {
+    background-color: #00337f;
+  }
+
+  .login-btn {
+    background-color: rgb(240, 20, 20);
+  }
+
+  .login-btn,
+  .val {
+    width: 110%;
+    margin-left: 10px;
+    height: 43%;
+    padding: 10px 20px 10px 20px;
+    border: none;
+    font-weight: 750;
+    font-size: 90%;
+  }
+
+  .val,
+  .featured-btn {
+    border: none;
+    font-size: 90%;
+  }
+
+  .val:hover {
+    background-color: #093f9e;
+    transition: 0.3s;
+  }
+
+  #txt-nav1,
+  #txt-nav2 {
+    margin-top: 23px;
+  }
+
+  #carousel-img {
+    margin-top: 110px;
+  }
+
+  .featured-main {
+    text-align: center;
+    margin: 30px 10px 20px 50px;
+    overflow: hidden;
+    width: 93%;
+    height: 180%;
+  }
+
+  section {
+    width: 96%;
+    height: 100%;
+    display: flex;
+    justify-content: left;
+    overflow-x: hidden;
+    margin: auto;
+  }
+
+  section ::-webkit-scrollbar {
+    visibility: hidden;
+  }
+
+  #featured-heading {
+    font-weight: 650;
+    font-size: 220%;
+  }
+
+  .featured-card {
+    min-width: 18.4%;
+    min-height: 70%;
+    margin: 30px 10px 10px 11px;
+    padding: 20px 0px;
+    background-color: #f2f2f2;
+    font-size: 125%;
+    display: none;
+  }
+
+  .btn-inc,
+  .btn-dec {
+    position: absolute;
+    font-size: 200%;
+    font-weight: 1000;
+    cursor: pointer;
+    border-radius: 50%;
+    width: 3%;
+    height: 1%;
+    background-color: rgb(233, 37, 37);
+    color: white;
+    border: none;
+    padding-bottom: 3.2%;
+  }
+
+  .btn-inc,
+  .btn-dec {
+    top: 120%;
+  }
+
+  .brand-btn-inc,
+  .brand-btn-dec {
+    position: absolute;
+    top: 295%;
+  }
+
+  .btn-inc {
+    left: 2%;
+  }
+
+  .btn-dec {
+    right: 2%;
+  }
+
+  .featured-btn {
+    padding: 10px 30px;
+    font-weight: 700;
+  }
+
+  #featured-post {
+    font-weight: 550;
+  }
+
+  .values-main {
+    height: 400px;
+    width: 100%;
+    text-align: center;
+    margin-top: 30px;
+    overflow: hidden;
+  }
+
+  .values {
+    display: flex;
+    width: 100%;
+  }
+
+  .values-content {
+    display: grid;
+    grid-template-columns: repeat(2, 98px);
+    margin: 27px;
+  }
+
+  .value-txt {
+    font-weight: 600;
+    font-size: 22px;
+    z-index: 1;
+    margin: 5px 0px 0px 10px;
+    /* padding: 15px; */
+  }
+
+  .brand {
+    width: 91%;
+    height: 50%;
+    margin: 20px auto;
+    overflow: hidden;
+    text-align: center;
+  }
+
+  #sec {
+    width: 96%;
+    height: 330px;
+    display: flex;
+    justify-content: brandLeft;
+    overflow-x: hidden;
+    margin: 40px auto;
+  }
+
+  #sec ::-webkit-scrollbar {
+    visibility: hidden;
+  }
+
+  .card {
+    min-width: 300px;
+    height: 82%;
+    Left: 0;
+    text-align: center;
+    padding: 30px 10px 0px 10px;
+    margin: 10px 20px;
+    transition: 1s;
+    margin: 10px;
+    background-color: #f2f2f2;
+    display: none;
+    font-size: 20px;
+  }
+
+  .card:hover {
+    transform: translateY(-15px);
+    transition: 0.3s;
+  }
+  .footer-end{
+    /* margin: 0; */
+    display: flex;
+    justify-content: space-between;
+    left: 0;
+    /* padding: 30px 0px 0px 30px; */
+    font-weight: 550;
+    width: 100%;
+    height: 90px;
+    background-color: #00337f;
+  }
+  
+  #linked-in{
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    color: rgb(18, 90, 161);
+    background-color: white;
+    margin-top: 30px;
+    
+  }
+  .footer-Smedia{      
+    width: 25%;
+    /* padding: 0px 0px 20px 0px; */
+  }
+  .footer-content{
+    margin: 40px;
+  }
+  .footer-Smedia > img{
+    margin: 10px;
+  }
+  .values-dynamic-txtBox{
+    height: 100%;
+    width: 100%;
+    background-color: #f3f3f3;
+    display: flex;
+    padding-top: 20px;
+  }
+  #dynamic-value-txt{
+    width: 20%;
+    height: 200%;
+    font-size: 18px;
+    padding: 10px 16px;
+    text-align: start; 
+    font-weight: 550;     
+  }
