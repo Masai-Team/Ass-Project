@@ -282,29 +282,7 @@ nav .wrapper{
 nav input{
   display: none;
 }
-/* .body-container{
-  height: 660px;
-  background-color: rgb(204, 233, 223);
-} */
-/* .body-text{
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  width: 100%;
-  text-align: center;
-  padding: 0 30px;
-  /* background-color: aqua; */
-/* } */
-/* .title img{
-  width: 100%;
-  height: 670px;
-}
-.body-text div{
-  font-size: 45px;
-  font-weight: 600;
-  /* background-color: aqua; */
-/* }  */
+
 .container1{
   width: 100%;
   margin: auto;
@@ -312,21 +290,12 @@ nav input{
 }  
 .img{
   object-fit: cover;
-  height: 700px;
+  height: 600px;
   width: 100%;
 }     
 .ptb-50 {
   padding: 20px 0 !important;
 }
-/* @media (min-width: 1200px)
-.container{
-    width: 1170px;
-} */
-/* @media (min-width: 1200px){
-.container {
-    width: 1170px;
-}
-} */
 
 .container {
   padding-right: 15px;
@@ -364,7 +333,7 @@ h2 {
   text-align: center;
 }
 .section-title {
-  margin: 0 0 20px;
+  margin: 1 0 23px;
 }
 .p-30 {
   padding: 30px 520px;
