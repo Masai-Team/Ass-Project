@@ -32,10 +32,10 @@ nav .wrapper{
 }
 .wrapper .logo a img{
   color: #f2f2f2;
-  font-size: 30px;
+  font-size: 20px;
  
   text-decoration: none;
-  margin-top: 30px;
+  margin-top: 14px;
 }
 #active{
         background-color: #ee1c2e;
