@@ -6,7 +6,8 @@
     <title>Reliance Retail</title>
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/footer.css">
-    <!-- <link rel="stylesheet" href="css/carousal.css"> -->
+    <link rel="stylesheet" href="css/carousal.css">
+    <link rel="stylesheet" href="css/Career.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/fontawesome.min.css" integrity="sha384-jLKHWM3JRmfMU0A5x5AkjWkw/EYfGUAGagvnfryNV3F9VqM98XiIH7VBGVoxVSc7" 
     crossorigin="anonymous">
     <script src="https://kit.fontawesome.com/c48ffb925d.js" crossorigin="anonymous"></script>
@@ -81,7 +82,7 @@
               </div>
               <div class="row">
                 <ul class="mega-links">
-                  <li><a target="blank" href="ajio.html">AJIO</a></li>
+                  <li><a href="ajio.html"><i class="fa fa-angle-right" aria-hidden="true"></i> AJIO</a></li>
                   <li><a href="#"> <i class="fa fa-angle-right" aria-hidden="true"></i> Hamleys</a></li>
                   <li><a href="#"><i class="fa fa-angle-right" aria-hidden="true"></i> Reliance Brands</a></li>
                   <li><a href="#"><i class="fa fa-angle-right" aria-hidden="true"></i> Reliance Mall</a></li>
@@ -136,7 +137,7 @@
               </div>
           </div>
         </li>
-        <li><a href="#" style="color: rgb(255, 0, 43);">Store Locator <i class="fa fa-map-marker" aria-hidden="true"></i></a></li>
+        <li><a href="#" style="color: rgb(216, 25, 57);">Store Locator  <i class="fa fa-street-view" aria-hidden="true"></i> </a></li>
         </ul>
       <label for="menu-btn" class="btn menu-btn"><i class="fas fa-bars"></i></label>
     </div>
@@ -168,6 +169,13 @@
       </div>
   </div>
 </section>
+<!-- <div class="featured-main">
+      <span class="txtclr-red" id="featured-heading">OUR BRANDS</span>
+      <section class="featured"> -->
+        <!-- <button class="btn-inc" onclick="rightMove()">&#139;</button>
+        <button class="btn-dec" onclick="leftMove()">&#155;</button> -->
+      <!-- </section>
+    </div> -->
 <!-- <section onload="show()">
   <h1 id="brand-heading">Our Brands</h1>
   <main class="container">
@@ -178,6 +186,47 @@
       <button id="btn-dec" onclick="leftMove()">&#155;</button>     
   </main>   
 </section> -->
+<h2 style="text-align:center;color: #bc2824; font-size: 25px;">OUR BRANDS</h2>
+<div class="middle-container" style="height: 400px;">
+
+</div>
+<!-- <div class="slideshow-container">
+  <div class="mySlides1">
+    <img src="images/carousal/1.png" style="width:100%">
+  </div>
+
+  <div class="mySlides1">
+    <img src="images/carousal/2.png" style="width:100%">
+  </div>
+
+  <div class="mySlides1">
+    <img src="images/carousal/3.png" style="width:100%">
+  </div>
+  <div class="mySlides1">
+    <img src="images/carousal/4.png" style="width:100%">
+  </div>
+  <div class="mySlides1">
+    <img src="images/carousal/5.jpg" style="width:100%">
+  </div>
+  <div class="mySlides1">
+    <img src="images/carousal/6.png" style="width:100%">
+  </div>
+  <div class="mySlides1">
+    <img src="images/carousal/7.png" style="width:100%">
+  </div>
+  <div class="mySlides1">
+    <img src="images/carousal/8.png" style="width:100%">
+  </div>
+  <div class="mySlides1">
+    <img src="images/carousal/9.png" style="width:100%">
+  </div>
+  <div class="mySlides1">
+    <img src="images/carousal/10.png" style="width:100%">
+  </div>
+
+  <a class="prev" onclick="plusSlides(-1, 0)">&#10094;</a>
+  <a class="next" onclick="plusSlides(1, 0)">&#10095;</a>
+</div> -->
 <footer class="footer">
   <ul class="footer__nav">
     <li class="nav__item">
@@ -334,5 +383,27 @@
 </body>
 <script src="js/script.js"></script>
 <!-- <script src="js/carousal.js"></script> -->
+<script>
+  var slideIndex = [1,1];
+var slideId = ["mySlides1", "mySlides2"]
+showSlides(1, 0);
+showSlides(1, 1);
+
+function plusSlides(n, no) {
+  showSlides(slideIndex[no] += n, no);
+}
+
+function showSlides(n, no) {
+  var i;
+  var x = document.getElementsByClassName(slideId[no]);
+  if (n > x.length) {slideIndex[no] = 1}    
+  if (n < 1) {slideIndex[no] = x.length}
+  for (i = 0; i < x.length; i++) {
+     x[i].style.display = "none";  
+  }
+  x[slideIndex[no]-1].style.display = "block";  
+}
+</script>
+</script>
 
 </html>

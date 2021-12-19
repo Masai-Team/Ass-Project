@@ -1,6 +1,14 @@
 
-       
-        #container {
+      *{
+          margin: 0;
+          padding: 0;
+      } 
+    /* body {
+        margin:0;
+        padding:0;
+        
+      } */
+      #container {
             padding-top:70px;
             display:grid;
             grid-template-columns: 240px 800px 20px;
@@ -28,6 +36,7 @@
         }
         #box1>div{
             background-image: url("https://relianceretail.com/img/red-patterns.jpg");
+            height: 350px;
           
         }
         button{
@@ -80,7 +89,7 @@
             height:40px;
             padding:13px;
             font-size: 25px;
-            margin-left: 870px ;
+            margin-left: 960px ;
             position: fixed;
         }
         @media only screen and (min-width:375px) and (max-width:768px) {
