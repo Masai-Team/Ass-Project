@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="css/footer.css">
     <link rel="stylesheet" href="css/carousal.css">
     <link rel="stylesheet" href="css/Career.css">
+    <link rel="stylesheet" href="css/cards.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/fontawesome.min.css" integrity="sha384-jLKHWM3JRmfMU0A5x5AkjWkw/EYfGUAGagvnfryNV3F9VqM98XiIH7VBGVoxVSc7" 
     crossorigin="anonymous">
     <script src="https://kit.fontawesome.com/c48ffb925d.js" crossorigin="anonymous"></script>
@@ -109,7 +110,7 @@
               </div>
               <div class="row">
                 <ul class="mega-links">
-                  <li><a href="RRVL_Realation.html"><i class="fa fa-angle-right" aria-hidden="true"></i> RRVL Investor Relations</a></li>
+                  <li><a href="RRVL_Relation.html"><i class="fa fa-angle-right" aria-hidden="true"></i> RRVL Investor Relations</a></li>
                   <li><a href="RRL_Relation.html"> <i class="fa fa-angle-right" aria-hidden="true"></i> RRL Investor Relations</a></li>
                 </ul>
               </div>
@@ -144,13 +145,32 @@
     </div>
   </nav>
 <!-- <div class="body-container"> -->
-  <div class="container1">
+  <!-- <div class="container1">
     <a href="https://relianceretail.com/"><img src="https://relianceretail.com/img/logo.png" height="85" width="120" alt="" id="logo"></a>
     <img class="img" src="" name="slide" height="700px" width="100%" alt="">
-</div>
+</div> -->
 <!-- </div>  -->
+<div class="slideshow-container" style="margin: 15px; padding: 0px; ">
+  <div class="mySlides1">
+    <img src="https://relianceretail.com/img/banner/bs1.jpg"  height="700px" width="1500px">
+  </div>
+
+  <div class="mySlides1">
+    <img src="https://relianceretail.com/img/banner/bs2.jpg" height="700px" width = "200%">
+  </div>
+
+  <div class="mySlides1">
+    <img src="https://relianceretail.com/img/banner/bs3.jpg" height="700px" width = "100%">
+  </div>
+  
+ 
+
+  <a class="prev" onclick="plusSlides(-1, 0)">&#10094;</a>
+  <a class="next" onclick="plusSlides(1, 0)">&#10095;</a>
+</div>
 <section id="about" class="ptb-50">
   <div class="container">
+     
       <div class="row">
       <div class="section-title text-center">
               <h2 class="p-30" style="text-transform:none;">Your Account</h2>
@@ -188,9 +208,13 @@
   </main>   
 </section> -->
 <h2 style="text-align:center;color: #bc2824; font-size: 25px;">OUR BRANDS</h2>
-<div class="middle-container" style="height: 400px;">
+<div class="container-brand">
+  <div id="sec">
 
-</div>
+  </div>  
+  <button id="btn-inc" onclick="brandRightMove()">&#139;</button>
+  <button id="btn-dec" onclick="brandLeftMove()">&#155;</button>     
+</div>  
 <!-- <div class="slideshow-container">
   <div class="mySlides1">
     <img src="images/carousal/1.png" style="width:100%">
@@ -203,27 +227,8 @@
   <div class="mySlides1">
     <img src="images/carousal/3.png" style="width:100%">
   </div>
-  <div class="mySlides1">
-    <img src="images/carousal/4.png" style="width:100%">
-  </div>
-  <div class="mySlides1">
-    <img src="images/carousal/5.jpg" style="width:100%">
-  </div>
-  <div class="mySlides1">
-    <img src="images/carousal/6.png" style="width:100%">
-  </div>
-  <div class="mySlides1">
-    <img src="images/carousal/7.png" style="width:100%">
-  </div>
-  <div class="mySlides1">
-    <img src="images/carousal/8.png" style="width:100%">
-  </div>
-  <div class="mySlides1">
-    <img src="images/carousal/9.png" style="width:100%">
-  </div>
-  <div class="mySlides1">
-    <img src="images/carousal/10.png" style="width:100%">
-  </div>
+  
+ 
 
   <a class="prev" onclick="plusSlides(-1, 0)">&#10094;</a>
   <a class="next" onclick="plusSlides(1, 0)">&#10095;</a>
@@ -382,9 +387,10 @@
   </div>
 </div>
 </body>
-<script src="js/script.js"></script>
+<!-- <script src="js/script.js"></script> -->
+<script src="js/Cards.js"></script>
 <!-- <script src="js/carousal.js"></script> -->
-<!-- <script>
+<script>
   var slideIndex = [1,1];
 var slideId = ["mySlides1", "mySlides2"]
 showSlides(1, 0);
@@ -405,6 +411,6 @@ function showSlides(n, no) {
   x[slideIndex[no]-1].style.display = "block";  
 }
 </script>
-</script> -->
+<!-- </script> -->
 
 </html>

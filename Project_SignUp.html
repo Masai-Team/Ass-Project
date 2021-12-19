@@ -163,16 +163,17 @@
 </body>
 </html>
 <script>
-    document.querySelector("#home").addEventListener("click",goHome);
+   document.querySelector("#home").addEventListener("click",goHome);
     function goHome(event){
         window.location.href="index.html";
     }
     document.querySelector("#submit").addEventListener("click",addItem);
-    var arr=JSON.parse(localStorage.getItem("relList"));
+    var arr=JSON.parse(localStorage.getItem("relList")) || [];
 
     function addItem(event){
         var mobNo =document.querySelector("#MobNo").value;
         var city =document.querySelector("#city").value;
+        console.log(mobNo, city);
         if(mobNo==""){
             document.getElementById("valid").innerHTML="** Please Fill the Number";
         }
@@ -195,8 +196,9 @@
             itemMob:mobNo,
             itemCity:city
         }
+        // console.log(relObj)
         arr.push(relObj);
-        console.log(arr);
+        // console.log(arr);
         localStorage.setItem("relList",JSON.stringify(arr));
       
 

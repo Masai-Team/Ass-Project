@@ -1,0 +1,94 @@
+  .container-brand{
+            width: 89%;
+            height: 400px;
+            margin : 20px auto;
+            overflow: hidden;
+            /* position: relative; */
+
+        }
+        #brand-heading{
+            color: #bd2925;
+            font-size: 40px;
+            text-align: center;
+        }
+        #sec{
+            width: 96%;
+            height: 330px;           
+            display: flex;
+            justify-content: brandLeft;
+            overflow-x: hidden;
+            margin: auto;
+        }
+        #sec ::-webkit-scrollbar{
+            visibility: hidden;
+        }
+        .btn-card{
+            margin: 10px 0px;
+            height: 35px;
+            width: 35px;
+            text-align: center;
+            border: 3px solid #bb3834;
+            border-radius: 50%;
+            font-size: 22px;
+            font-weight: bolder;
+            color: #bb3834;
+            opacity: 0;
+            transition: opacity 1.45s ease;
+            z-index: 1;
+            
+        }
+        .card{
+            min-width: 23.3%;
+            height: 250px;
+            position: relative;
+            Left: 0;
+            text-align: center;
+            padding: 30px 10px 0px 10px;
+            margin: 10px 20px;
+            transition: 1s; 
+            margin:10px;    
+            background-color: #e0e0e0;   
+            display: none;
+            overflow-y: hidden;
+        }
+         .card:hover {
+             border: 1px solid #bb3834;  
+             transform:  translateY(-7px);
+             transition: 0.3s;   
+        }
+        .card:hover .btn-card{
+            opacity: 1;
+        }
+        .card-heading{
+            font-size: 12px ;
+            padding: 10px;
+        }
+        .btn-card:hover{
+            display: inline-block;
+        }
+        
+        #btn-inc, #btn-dec{
+            position: absolute;
+            top: 270%;
+            font-size: 25px;
+            font-weight: bold;
+            cursor: pointer; 
+            border-radius: 50%;
+            width: 35px;
+            height: 35px;
+            padding: 0px 0px 20px 0px;
+            background-color: rgb(233, 37, 37);
+            color: white;
+            border: none;
+        }
+        #btn-inc{
+            Left: 47%;
+        }
+        #btn-dec{          
+            Right: 46%;
+        }
+
+        .slideshow-container > div > div{
+            height: 700px;
+            width: 100%;
+        }

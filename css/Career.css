@@ -114,7 +114,7 @@
   .featured-card {
     min-width: 18.4%;
     min-height: 70%;
-    margin: 30px 10px 10px 11px;
+    margin: 30px 11px 10px 11px;
     padding: 20px 0px;
     background-color: #f2f2f2;
     font-size: 125%;
@@ -138,13 +138,13 @@
 
   .btn-inc,
   .btn-dec {
-    top: 120%;
+    top: 115%;
   }
 
   .brand-btn-inc,
   .brand-btn-dec {
     position: absolute;
-    top: 295%;
+    top: 285%;
   }
 
   .btn-inc {
@@ -213,7 +213,7 @@
   }
 
   .card {
-    min-width: 300px;
+    min-width: 323px;
     height: 82%;
     Left: 0;
     text-align: center;
@@ -221,7 +221,7 @@
     margin: 10px 20px;
     transition: 1s;
     margin: 10px;
-    background-color: #f2f2f2;
+    background-color: #f0f0f0;
     display: none;
     font-size: 20px;
   }
