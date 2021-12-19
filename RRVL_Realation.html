@@ -1,0 +1,542 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>RRVL Investors Relation</title>
+    <link rel="stylesheet" href="css/footer.css">
+    <link rel="stylesheet" href="css/nav.css">
+    <script src="https://kit.fontawesome.com/c48ffb925d.js" crossorigin="anonymous"></script>
+    <style>
+      * {
+        font-family: sans-serif;
+      }
+      #first {
+        width: 100%;
+        height: 350px;
+        border: 2px solid transparent;
+        padding-top: 10px;
+        margin-top: 10px;
+      }
+      #relation {
+        width: 500px;
+        height: 100px;
+        margin-left: 200px;
+        position: absolute;
+        border: 2px solid transparent;
+        color: rgb(129, 122, 122);
+        line-height: 10px;
+        margin-top: 20px;
+      }
+      a {
+        text-decoration: unset;
+        color: #a4bed3;
+    
+      }
+      a:hover{
+          color: black;
+      }
+      p{
+        padding:7px;
+      }
+      #second {
+        width: 100%;
+        padding: 20px;
+        background-color: #f6f6f6;
+        border: 1px solid transparent;
+      }
+      #upper {
+        width: 70%;
+        margin: auto;
+        padding: 20px;
+        background-color: white;
+        border: 1px solid transparent;
+      }
+      #details{
+        display: flex;
+        /* line-height: 10px; */
+        color: rgb(90, 86, 86);
+      }
+      #seperator {
+        height: 400px;
+        width: 0.5px;
+        margin: auto;
+        /* margin-left: 30px; */
+        background-color: rgb(228, 216, 216);
+      }
+      #leftPara{
+        width: 400px;
+        border: 1px solid transparent;
+      }
+      #rightPara{
+        width: 400px;
+        margin-left: 40px;
+        border: 1px solid transparent;
+      }
+      
+      .seperator{
+        background-color: rgb(240, 234, 234);
+        height: 0.3px;
+        margin-top: 40px;
+      }
+      .smallHeading{
+        font-weight: 750; 
+        color: #323232;
+      }
+      #lower{
+        margin: auto;
+        margin-top: 2px;
+        padding: 20px;
+        border: 1px solid transparent;
+        text-align: center;
+      }
+      input{
+          width: 48%;
+          border-radius: 50px;
+          border: 1px solid rgb(211, 206, 206);
+          padding: 16px;
+          color: rgb(129, 122, 122);
+          font-size: 16px;
+          margin-top: 20px;
+      }
+      #RRVLsubmit{
+          width: 200px;
+          padding: 16px;
+          margin-top: 25px;
+          background-color: #254399;
+          border: 0px;
+          color: white;
+          font-size: 16px;
+      }
+      RRVLsubmit:hover{
+          background-color: #bc2824;
+      }
+      .dark{
+        color: rgb(100, 97, 97);
+      }
+      #banner{
+        width:1fr;
+      }
+      #scrollUpButton{
+        background: #bc2824;
+        color: blanchedalmond;
+        position: fixed;
+        font-size: 20px;
+        right: 0px;
+        bottom: 70px;
+        width: 40px;
+        height: 30px;
+        border: none;
+        padding-top: 8px;
+        cursor: pointer;
+      }
+
+      @media only screen and (min-width:866px) and (max-width:900px) {
+        
+        #banner{
+         width:100%;
+         height:250px;
+         object-fit: cover;
+        }
+        #relation{
+           width:500px;
+           margin-left:50px
+        }
+        #upper {
+          width: 90%;
+        }
+        #seperator {
+          margin-left: 50px;
+        }
+        #leftPara{
+          width: 400px;
+          border: 1px solid transparent;
+        }
+        #rightPara{
+          width: 400px;
+          margin-left:40px;
+        }
+        #reports{
+          display: flex;
+          flex-wrap: wrap;
+        }
+      }
+
+      @media only screen and (min-width:0px) and (max-width:865px) {
+        #details{
+          display: flex;
+          flex-wrap: wrap;
+        }
+        #upper {
+          width: 90%;
+        }
+        #seperator {
+          height: 0.5px;
+          width: 90%;
+          margin: auto;
+          /* margin-left: 30px; */
+          background-color: rgb(228, 216, 216);
+        }
+        #reports{
+          display: flex;
+          flex-wrap: wrap;
+        }
+        #rightPara{
+          margin-left: 0px;
+        }
+    
+    }
+    </style>
+  </head>
+
+  <nav>
+    <div class="wrapper">
+      <div class="logo"><a href="index.html"><img src="images/logo.png" alt=""></a></div>
+      <input type="radio" name="slider" id="menu-btn">
+      <input type="radio" name="slider" id="close-btn">
+      <ul class="nav-links">
+        <label for="close-btn" class="btn close-btn"><i class="fas fa-times"></i></label>
+        <li><a href="#" id="active">About us</a>
+          <input type="checkbox" id="showMega">
+          <label for="showMega" class="mobile-item">Mega Menu</label>
+          <div class="mega-box">
+            <div class="content">
+              <div class="row">
+                <img src="images/im1.jpg" alt="">
+              </div>
+              <div class="row">
+                <header>OUR BUSSINESS</header>
+                <p>Since its inception in 2006, Reliance Retail has grown to become India’s
+                   largest retailer delivering superior value to its customers, suppliers and shareholders</p>
+              </div>
+              <div class="row">
+                <ul class="mega-links">
+                  <li><a href="#"> <i class="fa fa-angle-right" aria-hidden="true"></i> Our Bussiness</a></li>
+                  <li><a href="#"> <i class="fa fa-angle-right" aria-hidden="true"></i> Key facts</a></li>
+                  <li><a href="#"> <i class="fa fa-angle-right" aria-hidden="true"></i> Milestone</a></li>
+                </ul>
+              </div>
+              <div class="row">
+                  <ul class="mega-links">
+                  <li><a href="#"><i class="fa fa-angle-right" aria-hidden="true"></i> Award and recognization</a></li>
+                  <li><a href="#"> <i class="fa fa-angle-right" aria-hidden="true"></i> About RIL</a></li>
+                </ul>
+              </div>
+            </div>
+          </div></li>
+        <li><a href="#">Our Brands</a>
+          <input type="checkbox" id="showMega">
+          <label for="showMega" class="mobile-item">Mega Menu</label>
+          <div class="mega-box">
+            <div class="content">
+              <div class="row">
+                <img src="images/img1.jpg" alt="">
+              </div>
+              <div class="row">
+                <p>Reliance Retail operates chain of convenience stores, supermarkets, 
+                    specialty and online stores providing choice, convenience and superior value</p>
+              </div>
+              <div class="row">
+                <ul class="mega-links">
+                  <li><a target="blank" href="relianceFresh.html"> <i class="fa fa-angle-right" aria-hidden="true"></i> Reliance Fresh</a></li>
+                  <li><a target="blank" href="relianceSmart.html"> <i class="fa fa-angle-right" aria-hidden="true"></i> Reliance Smart</a></li>
+                  <li><a href="#"> <i class="fa fa-angle-right" aria-hidden="true"></i> Reliance Smart Point</a></li>
+                  <li><a  target="blank" href="jioMart.html"> <i class="fa fa-angle-right" aria-hidden="true"></i> JioMart</a></li>
+                  <li><a target="blank" href="relianceDigital.html"> <i class="fa fa-angle-right" aria-hidden="true"></i> Reliance Digital</a></li>
+                </ul>
+              </div>
+              <div class="row">
+                <ul class="mega-links">
+                  <li><a href="#"> <i class="fa fa-angle-right" aria-hidden="true"></i> Jio store</a></li>
+                  <li><a href="#"> <i class="fa fa-angle-right" aria-hidden="true"></i> Relaince Trends</a></li>
+                  <li><a href="#"> <i class="fa fa-angle-right" aria-hidden="true"></i> Project Eve</a></li>
+                  <li><a href="#"><i class="fa fa-angle-right" aria-hidden="true"></i> Reliance Jewels</a></li>
+                  <li><a target="" href="trendsFootwear.html"><i class="fa fa-angle-right" aria-hidden="true"></i> Trends footwear</a></li>
+                </ul>
+              </div>
+              <div class="row">
+                <ul class="mega-links">
+                  <li><a target="blank" href="ajio.html">AJIO</a></li>
+                  <li><a href="#"> <i class="fa fa-angle-right" aria-hidden="true"></i> Hamleys</a></li>
+                  <li><a href="#"><i class="fa fa-angle-right" aria-hidden="true"></i> Reliance Brands</a></li>
+                  <li><a href="#"><i class="fa fa-angle-right" aria-hidden="true"></i> Reliance Mall</a></li>
+                  <li><a href="#"><i class="fa fa-angle-right" aria-hidden="true"></i> Reliance Consumer Brands</a></li>
+                  <li><a href="#"><i class="fa fa-angle-right" aria-hidden="true"></i> 7-Eleven</a></li>
+                </ul>
+              </div>
+            </div>
+            </div>
+          </li>
+        <li>
+          <a href="#" class="desktop-item">Investor Relation</a>
+          <input type="checkbox" id="showMega">
+          <label for="showMega" class="mobile-item">Mega Menu</label>
+          <div class="mega-box">
+            <div class="content">
+              <div class="row">
+                <img src="images/img2.jpg" alt="">
+              </div>
+              <div class="row">
+                <header>OUR INVESTORS</header>
+                <p>Stay up to date with all of the latest news updates from Reliance Retail</p>
+              </div>
+              <div class="row">
+                <ul class="mega-links">
+                  <li><a target="blank" href="RRVL_Relation.html"><i class="fa fa-angle-right" aria-hidden="true"></i> RRVL Investor Relations</a></li>
+                  <li><a target="blank" href="RRL_Relation.html"> <i class="fa fa-angle-right" aria-hidden="true"></i> RRL Investor Relations</a></li>
+                </ul>
+              </div>
+        </li>
+        <li>
+          <a href="#" class="desktop-item">Careers</a>
+          <input type="checkbox" id="showMega">
+          <label for="showMega" class="mobile-item">Mega Menu</label>
+          <div class="mega-box">
+            <div class="content">
+              <div class="row">
+                <img src="images/img3.jpg" alt="">
+        
+              </div>
+              <div class="row">
+                <p>At Reliance Retail, we are committed to creating one of the world's most people-friendly, performance-driven, and process-efficient learning organisation, where the best and t
+                  he brightest work together to create a responsive, respectful and delightful work environment.</p>
+              </div>
+              <div class="row">
+                
+                <ul class="mega-links">
+                  <li><a target="blank" href="Career.html"><i class="fa fa-angle-right" aria-hidden="true"></i> Apply now</a></li>
+                  <li><a href="#"> <i class="fa fa-angle-right" aria-hidden="true"></i> RBL careers</a></li>
+                </ul>
+              </div>
+              </div>
+          </div>
+        </li>
+        <li><a href="#" style="color: rgb(255, 0, 43);">Store Locator <i class="fa fa-map-marker" aria-hidden="true"></i></a></li>
+        </ul>
+      <label for="menu-btn" class="btn menu-btn"><i class="fas fa-bars"></i></label>
+    </div>
+  </nav>
+
+  <body>
+    
+    <div id="first">
+        <img
+          src="images/consumer-brands-banner.jpg"
+          alt="Banner"
+          width="1520px"
+        />
+        <div id="relation">
+            <h2 style="color: #484785;">RRVL INVESTOR RELATIONS</h2>
+            <p>
+            <a href=""> Home </a> / <a href="http://127.0.0.1:5500/investorsRelation.html"> Investor Relations </a> / RRVL Investor
+            Relations
+            </p>
+      </div>
+    </div>
+
+
+    <div id="second">
+      
+      <div id="upper">
+        <div id="heading">
+            <p class="smallHeading" style="font-size: 23px;">RRVL Investor Relations</p>
+            <p style="color: #254399; font-size: 19px; font-weight: 800;">Contact Details for Grievance Handling</p>
+        </div>
+        <div id="details">
+            <div id="leftPara">
+                <p class="dark"><b>KFin Technologies Private Limited</b></p>
+                <p>(Formerly known as Karvy Fintech Private Limited)</p>
+                <p>(Registrar and Share Transfer Agents)</p>
+                <p>Unit : Reliance Retail Ventures Limited</p>
+                <p>Selenium Tower B</p>
+                <p>Plot 31-32, Gachibowli, Financial District</p>
+                <p>Nanakramguda, Hyderabad - 500 032</p>
+                <p>Tel: 1800-309-8998</p>
+                <p>
+                  E-mail:
+                  <a href="rrvl.investor@kfintech.com">rrvl.investor@kfintech.com</a>
+                </p>
+              </div>
+              <div id="seperator"></div>
+              
+              <div id="rightPara">
+                <p style="margin-top: 20px;" class="dark"><b>Mr. K. Sridhar</b></p>
+                <p>Company Secretary and Compliance Officer</p>
+                <p>Reliance Retail Ventures Limited</p>
+                <p>CIN - U51909MH2006PLC166166</p>
+                <p style="margin-top: 50px;" class="dark"><b>Registered Office</b></p>
+                <p>4th Floor, Court House,</p>
+                <p>Lokmanya Tilak Marg,</p>
+                <p>Dhobi Talao,</p>
+                <p>Mumbai - 400</p>
+                <p>002 Phone: +91-22-3555 3800</p>
+                <p> E-mail: <a href="sridhar.kothandaraman@ril.com">sridhar.kothandaraman@ril.com</a></p>
+              </div>
+        </div>
+        <div class="seperator"></div>
+        <div id="lower">
+            <div > 
+                <p class="smallHeading" style="font-size: 20px;">Enter your registered email ID to access shareholder documents</p>
+                <p style="color: #254399;">Enter Email Address</p>
+                <input type="text">
+                <br>
+                <button id="RRVLsubmit"><b>SUBMIT</b></button>
+            </div>
+        </div>
+      </div>
+      
+    </div>
+    <button><i class="fas fa-angle-up" id="scrollUpButton"></i></button>
+     <footer class="footer">
+    <ul class="footer__nav">
+      <li class="nav__item">
+        <h2 class="nav__title">About us</h2>
+  
+        <ul class="nav__ul">
+          <li>
+            <a href="#">Our bussiness</a>
+          </li>
+  
+          <li>
+            <a href="#">key facts</a>
+          </li>
+              
+          <li>
+            <a href="#">Milestones</a>
+          </li>
+          <li>
+            <a href="#">Award and Recognization</a>
+          </li>
+          <li>
+            <a href="#">About RIL</a>
+          </li>
+        </ul>
+      </li>
+    <ul class="footer__nav">
+      <li class="nav__item">
+        <h2 class="nav__title">OUR BRANDS</h2>
+  
+        <ul class="nav__ul">
+          <li>
+            <a href="#">Reliance fresh</a>
+          </li>
+  
+          <li>
+            <a href="#">Reliance Smart</a>
+          </li>
+              
+          <li>
+            <a href="#">Reliance Smart point</a>
+          </li>
+          <li>
+            <a href="#">JioMart</a>
+          </li>
+          <li>
+            <a href="#">Reliance Digital</a>
+          </li>
+          <li>
+            <a href="#">Jio Store</a>
+          </li>
+          <li>
+            <a href="#">Reliance Trends</a>
+          </li>
+          <li>
+            <a href="#">Relinace Consumer Brands</a>
+          </li>
+          <li>
+            <a href="#">7-Eleven</a>
+          </li>
+        </ul>
+      </li>
+      
+      <ul class="footer__nav">
+        <li class="nav__item">
+          <h2 class="nav__title"></h2>
+    
+          <ul class="nav__ul" style="margin-top: 60px; margin-left:40px ;">
+            <li>
+              <a href="#">Project Eve</a>
+            </li>
+    
+            <li>
+              <a href="#">Trends Footwear</a>
+            </li>
+                
+            <li>
+              <a href="#">Reliance Jewels</a>
+            </li>
+            <li>
+              <a href="#">AJIO</a>
+            </li>
+            <li>
+              <a href="#">Hamleys</a>
+            </li>
+            <li>
+              <a href="#">Reliance Brands</a>
+            </li>
+            <li>
+              <a href="#">Reliance Mall</a>
+            </li>
+            </ul>
+        </li>
+        <li class="nav__item">
+          <h2 class="nav__title" style="margin-top: px;">Careers</h2>
+            <ul>
+              <li><a href="#" style="font-size: 14px; color: #000;">Apply Now</a></li>
+             </ul>
+             <h2  class="nav__title">Investor Relations</h2>
+             <ul>
+              <li><a href="#" style="font-size: 14px; color: #000;">RRVL Investor Relations</a></li>
+              <li><a href="#" style="font-size: 14px; color: #000;">RRL Investor Relations</a></li>
+             </ul>
+             <h2 class="nav__title" style="margin-top: 40px;">Store Locator</h2>
+        </li>
+      <li class="nav__item">
+        <h2 class="nav__title">Reach Us</h2>
+        <p>Customer Care: 1800 891 0001 / 1800 <br>102 7382</p>
+        <p>Customer Service e-mail: customerservice@ril.com</p>
+  <!--       
+    
+        <ul class="nav__ul">
+          <li>
+            <a href="#">Privacy Policy</a>
+          </li>
+          
+          <li>
+            <a href="#">Terms of Use</a>
+          </li>
+          
+          <li>
+            <a href="#">Sitemap</a>
+          </li>
+        </ul>
+      </li>
+    </ul> -->
+    
+    <!-- <div class="legal">
+      <p>&copy; 2019 Something. All rights reserved.</p>
+  
+    </div> -->
+    
+  </footer>
+  <div class="second-footer">
+    <div class="second-container">
+      <div class="row">
+        <div class="col-sm-6">
+          <p class="left">© Reliance Retail. All rights reserved.</p>
+        </div>
+        <!-- <div class="col-sm-6">
+          <p class="right">Privacy Policy</p>
+        </div> -->
+      </div>
+    </div>
+  </div>
+</html>
+
+<script>
+  var scrollButton = document.querySelector("#scrollUpButton");
+  scrollButton.addEventListener("click", function(){
+    window.scrollTo(0,0);
+  })
+</script>

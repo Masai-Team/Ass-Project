@@ -1,0 +1,106 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+/* body{
+    font-family:  system-ui;
+    color: grey;
+} */
+.container-carousal{
+    width: 89%;
+    height: 400px;
+    margin : 477px auto;
+    overflow: hidden;
+    position: relative;
+
+}
+#brand-heading{
+    color: #bd2925;
+    font-size: 40px;
+    text-align: center;
+    margin-top: 100em;
+}
+#section-tab{
+    width: 96%;
+    height: 330px;           
+    display: flex;
+    justify-content: left;
+    overflow-x: hidden;
+    margin: auto;
+}
+#section-tab ::-webkit-scrollbar{
+    visibility: hidden;
+}
+.btn-card{
+    margin: 10px 0px;
+    height: 35px;
+    width: 35px;
+    text-align: center;
+    border: 3px solid #bb3834;
+    border-radius: 50%;
+    font-size: 22px;
+    font-weight: bolder;
+    color: #bb3834;
+    opacity: 0;
+    transition: opacity 1.45s ease;
+    
+}
+.card{
+    min-width: 300px;
+    height: 250px;
+    position: relative;
+    left: 0;
+    text-align: center;
+    padding: 30px 10px 0px 10px;
+    margin: 10px 20px;
+    transition: 1s; 
+    margin:10px;    
+    background-color: #f2f2f2;   
+    display: none;
+}
+ .card:hover {
+     border: 1px solid #bb3834;  
+     transform:  translateY(-7px);
+     transition: 0.3s;   
+}
+.card:hover .btn-card{
+    opacity: 1;
+}
+.card-heading{
+    font-size: large;
+    padding: 10px;
+}
+.btn-card:hover{
+    display: inline-block;
+}
+
+#btn-inc{
+    position: absolute;
+    top: 80%;
+    font-size: 20px;
+    font-weight: bold;
+    cursor: pointer;
+    left: 47%;
+    z-index: 1;
+    border-radius: 50%;
+    width: 35px;
+    height: 35px;
+    background-color: rgb(233, 37, 37);
+    color: white;
+    border: none;
+}
+#btn-dec{
+    position: absolute;
+    top: 80%;
+    font-size: 20px;
+    right: 47%;
+    cursor: pointer;
+    font-weight: bold;
+    z-index: 1;
+    border-radius: 50%;
+    width: 35px;
+    height: 35px;
+    background-color: rgb(233, 37, 37);
+    color: white;
+    border: none;
+}

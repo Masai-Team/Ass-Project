@@ -1,0 +1,197 @@
+
+       
+        #container {
+            padding-top:70px;
+            display:grid;
+            grid-template-columns: 240px 800px 20px;
+            grid-template-rows: 700px;
+            grid-template-areas: "b1 b2 ";
+            
+            background: linear-gradient(to top, #f6f6f6, #f6f6f6 50%, #f6f6f6 75%, white 75%);
+            grid-gap:90px;
+          
+        }
+      
+        #rilFreshImg{
+             width:100%;
+             height:250px;
+        }
+        .sideImg{
+            width:240px;
+        }
+        
+        #box1{
+           grid-area: b1;
+            width:240px;
+           margin: 0px 50px ;
+    
+        }
+        #box1>div{
+            background-image: url("https://relianceretail.com/img/red-patterns.jpg");
+          
+        }
+        button{
+            width:200px;
+            margin:10px ;
+            text-align:start;
+            background-color: transparent;
+            color: white;
+            border:0;
+            cursor: pointer ;
+            font-size:17px;
+            font-family:sans-serif;
+        }
+        button:hover{
+            font-weight :bold;
+        }
+        #box2{
+           grid-area: b2;
+            width:800px;
+        }
+        #box2>div{
+            width:97%;
+            margin-top:50px;
+            line-height: 30px;
+            font-family:sans-serif;
+        
+        }
+        #relBrand{
+            color: rgb(0,71,133);
+            font-family:sans-serif;
+            font-size: 25px;
+            padding-left:30px
+        }
+        #webVisit{
+           background: rgb(212, 36, 30);
+           width:140px;
+           text-align: center;
+           height:30px;
+    
+    
+       }
+        #webVisit:hover{
+            font-weight:lighter;
+            background:  rgb(188,40,36) ;
+        }
+    
+        #goUp{
+            background-color: rgb(188,40,36);
+            width:40px;
+            height:40px;
+            padding:13px;
+            font-size: 25px;
+            margin-left: 870px ;
+            position: fixed;
+        }
+        @media only screen and (min-width:375px) and (max-width:768px) {
+        #container {
+            grid-template-columns: 1fr;
+            grid-template-rows: repeat(2,  500px);
+            grid-template-areas: "b1"
+                                 "b2";
+            padding:10px   ;
+            background: none;  
+            grid-gap:0px;  
+            padding-top:20px              
+        }
+        #rilFreshImg{
+             width:100%;
+             height:250px;
+             object-fit: cover;
+        }
+        .sideImg{
+            width:100%;
+            height:70%
+        }
+        
+        #box1{
+           margin-left:0;
+           width:768px;
+           background-color:#f6f6f6 ;
+           
+        }
+        #box1>div:nth-child(2){
+         height:30%;
+         padding-top:10px; 
+        }
+        button{
+            width:330px;
+            margin:10px ;
+            
+        }
+        button:hover{
+            font-weight :bold;
+        }
+        #box2{
+            
+            width:90%;
+        }
+        #box2>div{
+            margin-top:20px;
+            width:700px;
+            background-color: #f6f6f6;
+        }
+       
+       #logo{
+           padding:20px;
+       }
+        }
+        @media only screen and (min-width:0px) and (max-width:375px){
+            #container {
+            grid-template-columns: 375px;
+            grid-template-rows: repeat(2,auto);
+            grid-template-areas: "b1"
+                                 "b2";
+            padding:10px   ;
+            background: none;  
+            grid-gap:30px;  
+            padding-top:20px ;
+                         
+        }
+        #rilFreshImg{
+             width:100%;
+             height:200px;
+             object-fit: cover;
+        }
+        .sideImg{
+            width:100%;
+        } 
+        #box1{
+           margin-left:0;
+           width:100%;
+           background-color:#f6f6f6 ;
+        
+        }
+        #box1>div:nth-child(2){
+         padding:10px;
+          height:240px;
+        } 
+        button{
+            width:100%;
+            margin:10px ;
+            font-size:14px;
+        }
+        button:hover{
+            font-weight :bold;
+        }
+        #box2{
+            
+            width:375px;
+        }
+        #box2>div{
+            margin-top:20px;
+            width:100%;
+            background-color: #f6f6f6;
+            font-size:14px; 
+            line-height: 20px;
+        }
+        #relBrand{
+            font-size: 17px;
+            padding-left:30px;
+
+        }
+        #logo{
+            width:300px;
+            
+        }
+        }
