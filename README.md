@@ -10,7 +10,7 @@ Apart from physical outlets, the company also sells products on its e-commerce�
 ### Careers Page
 ![porter](https://miro.medium.com/max/1400/1*N1HZkFQm9a4XUblOkeLfiQ.jpeg)
 
-#### 👉 [ Click here to Visit our Project](---)
+#### 👉 [ Click here to Visit our Project](https://objective-goldstine-7dcfb6.netlify.app/#)
 
 ## Technology used in the project
 1. HTML5.
